@@ -1,0 +1,195 @@
+  <!-- Файл: catalog.html -->
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин настольных игр</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка сайта (можно подключить через include или скопировать) -->
+    <!-- Шапка сайта -->
+    <header class="header">
+        <!-- ... содержимое шапки ... -->
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <!-- Логотип -->
+            <div class="header__logo">
+                <a href="/">
+                    <img src="logo.png" alt="Логотип магазина настольных игр" width="50" height="50">
+                </a>
+            </div>
+
+            <!-- Мобильное меню -->
+            <button class="header__burger">
+                <i class="icon-menu"></i>
+            </button>
+
+            <!-- Меню навигации -->
+            <nav class="header__menu">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a class="nav-link" href="Главная страница.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Новинки.html">Новинки сезона</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Конктакты.html">Контакты</a></li>
+                </ul>
+            </nav>
+
+ <!-- Правая часть шапки -->
+<div class="header__right">
+    <!-- Корзина -->
+    <div class="header__cart">
+        <a href="cart.html" class="btn btn-cart">
+            <i class="icon-shopping-cart"></i>
+            <span class="cart-text">Корзина</span>
+        </a>
+    </div>
+</div>
+
+
+
+
+                <!-- Контакты -->
+                <div class="header__contacts">
+                    <a href="tel:+78001234567">
+                        <i class="icon-phone"></i> 8-800-123-45-67
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <!-- Контакты -->
+<section class="contacts">
+    <div class="container">
+        <h2>Контакты</h2>
+        
+        <div class="contacts__wrapper">
+            <!-- Карта -->
+            <div class="contacts__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2957.022228225588!2d37.61762031551692!3d55.75582607837932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d5fc6d%3A0xc3cfd0b2b8b1efc7!2зМосква%2C%20ул.%20Тверская%2C%2015!5e0!3m2!1sru!2sru!4v1677027743227!5m1!1e4" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+            <!-- Информация -->
+            <div class="contacts__info">
+                <div class="contacts__block">
+                    <h3>Основной офис</h3>
+                    <address>
+                        <i class="icon-location"></i>
+                        г. Москва, ул. Примерная, 123<br>
+                        Бизнес-центр "Альфа", 5 этаж
+                    </address>
+                </div>
+                
+                <div class="contacts__block">
+                    <h3>Телефон</h3>
+                    <div class="contacts__phones">
+                        <a href="tel:+74951234567"><i class="icon-phone"></i> +7 (495) 123-45-67</a>
+                        <a href="tel:+79001234567"><i class="icon-phone"></i> +7 (900) 123-45-67</a>
+                    </div>
+                </div>
+                
+                <div class="contacts__block">
+                    <h3>Email</h3>
+                    <a href="mailto:info@company.ru"><i class="icon-mail"></i> info@company.ru</a>
+                </div>
+                
+                <div class="contacts__block">
+                    <h3>Социальные сети</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="icon-vk"></i></a>
+                        <a href="#" class="social-link"><i class="icon-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="icon-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Форма обратной связи -->
+            <div class="contacts__form">
+                <h3>Форма обратной связи</h3>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Сообщение" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Подвал -->
+<!-- Подвал сайта -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <!-- Колонки подвала -->
+            <div class="footer__column footer__column--contacts">
+                <h3>Контакты</h3>
+                <div class="footer__contact-info">
+                    <a href="tel:+78001234567">
+                        <i class="icon-phone"></i> 8-800-123-45-67
+                    </a>
+                    <a href="mailto:info@gameshop.ru">
+                        <i class="icon-mail"></i> info@gameshop.ru
+                    </a>
+                    <div>
+                        <i class="icon-location"></i> Москва, ул. Примерная, 123
+                    </div>
+                    <div>
+                        <i class="icon-clock"></i> Пн-Вс: 9:00-21:00
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__column footer__column--nav">
+                <h3>Навигация</h3>
+                <nav>
+                    <ul>
+                        <li><a href="Главная страница.html">Главная</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="Новинки.html">Новинки сезона</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer__column footer__column--services">
+                <h3>Полезная информация</h3>
+                <nav>
+                    <ul>
+                        <li><a href="Доставка.html">Доставка</a></li>
+                        <li><a href="Оплата.html">Оплата</a></li>
+                        <li><a href="Возврат.html">Возврат</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            
+
+        <!-- Нижняя часть подвала -->
+        <div class="footer__bottom">
+            <div class="footer__copyright">
+                © 2025 Магазин настольных игр. Все права защищены
+            </div>
+            <div class="footer__legal">
+                <a href="/policy">Политика конфиденциальности</a> | 
+                <a href="/terms">Пользовательское соглашение</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</header>
+</body>
+</html>

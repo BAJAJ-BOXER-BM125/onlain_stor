@@ -1,0 +1,207 @@
+  <!-- Файл: catalog.html -->
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин настольных игр</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка сайта (можно подключить через include или скопировать) -->
+    <!-- Шапка сайта -->
+    <header class="header">
+        <!-- ... содержимое шапки ... -->
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <!-- Логотип -->
+            <div class="header__logo">
+                <a href="/">
+                    <img src="logo.png" alt="Логотип магазина настольных игр" width="50" height="50">
+                </a>
+            </div>
+
+            <!-- Мобильное меню -->
+            <button class="header__burger">
+                <i class="icon-menu"></i>
+            </button>
+
+            <!-- Меню навигации -->
+            <nav class="header__menu">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a class="nav-link" href="Главная страница.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Новинки.html">Новинки сезона</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Конктакты.html">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <!-- Правая часть шапки -->
+<div class="header__right">
+    <!-- Корзина -->
+    <div class="header__cart">
+        <a href="cart.html" class="btn btn-cart">
+            <i class="icon-shopping-cart"></i>
+            <span class="cart-text">Корзина</span>
+        </a>
+    </div>
+</div>
+
+
+                <!-- Контакты -->
+                <div class="header__contacts">
+                    <a href="tel:+78001234567">
+                        <i class="icon-phone"></i> 8-800-123-45-67
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <!-- Основной контент каталога -->
+<!-- Основной контент каталога -->
+<!-- Каталог товаров -->
+<section class="catalog">
+    <div class="container">
+        <h2>Каталог товаров</h2>
+        <div class="product-list">
+            <!-- Контейнер для карточек -->
+            <div class="product-card-grid">
+                <!-- Карточка 1 -->
+                 <!-- Карточка товара -->
+<div class="product-card" data-id="1">
+    <a href="cart.html">
+        <div class="product-card__image-wrapper">
+            <img src="game1.jpg" alt="Монополия классическая" class="product-card__image">
+        </div>
+        <div class="product-card__content">
+            <h3>Монополия классическая</h3>
+            <div class="product-card__details">
+                <div class="product-card__price">Цена: 2990 ₽</div>
+                <div class="product-card__rating">Рейтинг: 4.8/5</div>
+                <div class="product-card__players">Игроки: 2-6</div>
+                <div class="product-card__time">Время: 180 мин</div>
+            </div>
+            <div class="product-card__actions">
+                <button class="btn btn-success add-to-cart">В корзину</button>
+                <a href="#" class="btn btn-outline-secondary">Подробнее</a>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+                <!-- Карточка 2 -->
+                <div class="product-card">
+                    <a href="cart.html">
+                        <div class="product-card__image-wrapper">
+                            <img src="game2.jpg" alt="Уно" class="product-card__image">
+                        </div>
+                        <div class="product-card__content">
+                            <h3>Уно</h3>
+                            <div class="product-card__details">
+                                <div class="product-card__price">Цена: 1990 ₽</div>
+                                <div class="product-card__rating">Рейтинг: 4.9/5</div>
+                                <div class="product-card__players">Игроки: 2-10</div>
+                                <div class="product-card__time">Время: 30 мин</div>
+                            </div>
+                            <div class="product-card__actions">
+                                <button class="btn btn-success">В корзину</button>
+                                <a href="#" class="btn btn-outline-secondary">Подробнее</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Карточка 3 -->
+                <div class="product-card">
+                    <a href="cart.html">
+                        <div class="product-card__image-wrapper">
+                            <img src="game3.jpg" alt="Мафия" class="product-card__image">
+                        </div>
+                        <div class="product-card__content">
+                            <h3>Мафия</h3>
+                            <div class="product-card__details">
+                                <div class="product-card__price">Цена: 1490 ₽</div>
+                                <div class="product-card__rating">Рейтинг: 4.7/5</div>
+                                <div class="product-card__players">Игроки: 6-12</div>
+                                <div class="product-card__time">Время: 45 мин</div>
+                            </div>
+                            <div class="product-card__actions">
+                                <button class="btn btn-success">В корзину</button>
+                                <a href="#" class="btn btn-outline-secondary">Подробнее</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                
+</section>
+
+    <!-- Подвал -->
+<!-- Подвал сайта -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <!-- Колонки подвала -->
+            <div class="footer__column footer__column--contacts">
+                <h3>Контакты</h3>
+                <div class="footer__contact-info">
+                    <a href="tel:+78001234567">
+                        <i class="icon-phone"></i> 8-800-123-45-67
+                    </a>
+                    <a href="mailto:info@gameshop.ru">
+                        <i class="icon-mail"></i> info@gameshop.ru
+                    </a>
+                    <div>
+                        <i class="icon-location"></i> Москва, ул. Примерная, 123
+                    </div>
+                    <div>
+                        <i class="icon-clock"></i> Пн-Вс: 9:00-21:00
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__column footer__column--nav">
+                <h3>Навигация</h3>
+                <nav>
+                    <ul>
+                        <li><a href="Главная страница.html">Главная</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="Новинки.html">Новинки сезона</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer__column footer__column--services">
+                <h3>Полезная информация</h3>
+                <nav>
+                    <ul>
+                        <li><a href="Доставка.html">Доставка</a></li>
+                        <li><a href="Оплата.html">Оплата</a></li>
+                        <li><a href="Возврат.html">Возврат</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            
+
+        <!-- Нижняя часть подвала -->
+        <div class="footer__bottom">
+            <div class="footer__copyright">
+                © 2025 Магазин настольных игр. Все права защищены
+            </div>
+            <div class="footer__legal">
+                <a href="/policy">Политика конфиденциальности</a> | 
+                <a href="/terms">Пользовательское соглашение</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</header>
+</body>
+</html>
